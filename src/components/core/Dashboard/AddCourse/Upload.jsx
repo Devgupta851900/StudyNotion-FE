@@ -23,6 +23,12 @@ export default function Upload({
   )
   const inputRef = useRef(null)
 
+  const handleClick = () => {
+    if (inputRef.current) {
+      inputRef.current.click()
+    }
+  }
+
   const onDrop = (acceptedFiles) => {
     const file = acceptedFiles[0]
     if (file) {
@@ -94,6 +100,7 @@ export default function Upload({
           </div>
         ) : (
           <div
+            onClick={handleClick}
             className="flex w-full flex-col items-center p-6"
             {...getRootProps()}
           >
