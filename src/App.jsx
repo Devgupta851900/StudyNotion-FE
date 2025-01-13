@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+
 import "./App.css"
 // Redux
 import { useDispatch, useSelector } from "react-redux"
@@ -42,7 +43,7 @@ function App() {
 
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      const token = JSON.parse(localStorage.getItem("token"))
+      const token = localStorage.getItem("token")
       dispatch(getUserDetails(token, navigate))
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -31,7 +31,7 @@ export function updateDisplayPicture(token, formData) {
       )
 
       if (!response.data.success) {
-        throw new Error(response.data.message)
+        throw new Error(response.data)
       }
       toast.success("Display Picture Updated Successfully")
       dispatch(setUser(response.data.data))
