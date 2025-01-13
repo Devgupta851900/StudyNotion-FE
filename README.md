@@ -5,7 +5,9 @@
 
 ## Overview
 
-This project is a full-featured web application built using the MERN stack (MongoDB, Express, React, Node.js). It offers a secure and responsive platform for user authentication and profile management.
+ StudyNotion is a fully functional ed-tech platform that enables users to create, consume, 
+and rate educational content. The platform is built using the MERN stack, which includes 
+ReactJS, NodeJS, MongoDB, and ExpressJS.
 
 ## Technologies Used
 
@@ -39,7 +41,7 @@ This project is a full-featured web application built using the MERN stack (Mong
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Devgupta851900/StudyNotion.git
    cd <project-folder>
    ```
 
@@ -85,4 +87,4 @@ This project is a full-featured web application built using the MERN stack (Mong
 
 2. **Access the application:**
 
-   Open `http://localhost:5173` in your web browser.
+   Open `http://localhost:3000` in your web browser.
